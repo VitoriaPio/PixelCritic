@@ -14,7 +14,7 @@ function Header() {
             <li>
                 <a href="#">Create Account</a>
             </li>            <li>
-                <a href="#">Jogos</a>
+                <a href="#">Games</a>
             </li>            <li>
                 <a href="#">News</a>
             </li>
