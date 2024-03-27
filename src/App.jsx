@@ -4,12 +4,15 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/header/header";
 import Carrossel from "./components/carousel/carosel";
+import Cards from "./components/cards/cards";
+
 function App() {
 	return (
 		//layout da pag
 		<>
 			<Header></Header>
 			<Carrossel></Carrossel>
+			<Cards></Cards>
 		</>
 	);
 }
