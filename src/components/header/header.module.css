@@ -14,11 +14,13 @@
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 3vh;
   }
   .header a{
     text-decoration: none;
     color: white;
+    
   }
   a:hover{
     color: palevioletred;

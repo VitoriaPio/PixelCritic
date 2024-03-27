@@ -4,7 +4,6 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/header/header";
 import Carrossel from "./components/carousel/carosel";
-
 function App() {
 	return (
 		//layout da pag
