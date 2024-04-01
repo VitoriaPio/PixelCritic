@@ -8,6 +8,7 @@ function Carrossel() {
 			id="carouselExampleControls"
 			className="carousel slide"
 			data-bs-ride="carousel"
+			style={{width: 800, padding: 10}}
 		>
 			<div class="carousel-inner">
 				<div class="carousel-item active">

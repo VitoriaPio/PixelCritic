@@ -9,11 +9,25 @@ import Cards from "./components/cards/cards";
 function App() {
 	return (
 		//layout da pag
-		<>
+		<section
+			style={{
+				backgroundColor: "black",
+				display: "flex",
+				flexDirection: "column",
+				alignItems: "center",
+				justifyContent: "center",
+			}}
+		>
 			<Header></Header>
 			<Carrossel></Carrossel>
-			<Cards></Cards>
-		</>
+			<div style={{ display: "flex", gap: 4}}>
+				<Cards></Cards>
+				<Cards></Cards>
+				<Cards></Cards>
+				<Cards></Cards>
+				<Cards></Cards>
+			</div>
+		</section>
 	);
 }
 
